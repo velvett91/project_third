@@ -9,6 +9,12 @@
     text-transform: uppercase;
     color: $white-color;
     border: none;
+    &:hover {
+        background-color: $white-color;
+        color: $main-color;
+        border: 1px solid $main-color;
+        transition: 0.3s;
+    }
     &_main {
         width: 303px;
         height: 54px;
